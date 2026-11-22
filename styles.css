@@ -147,6 +147,7 @@ nav a:hover { color: var(--crema); }
   display: flex;
   align-items: flex-end;
   overflow: hidden;
+  scroll-margin-top: 90px;
 }
 .hero-img {
   position: absolute;
@@ -195,6 +196,9 @@ nav a:hover { color: var(--crema); }
 @media (min-width: 768px) {
   .columnas { grid-template-columns: 1fr 1fr; }
   .columnas-3 { grid-template-columns: 1fr 1fr 1fr; }
+}
+@media (max-width: 767px) {
+  .hero { scroll-margin-top: 180px; }
 }
 
 /* información */
